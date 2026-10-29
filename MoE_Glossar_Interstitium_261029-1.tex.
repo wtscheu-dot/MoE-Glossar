@@ -1,0 +1,123 @@
+
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage[a4paper,margin=25mm]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{helvet}
+\usepackage{sfmath}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{microtype}
+\usepackage[hidelinks]{hyperref}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage{parskip}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage\ (\pageref{LastPage})}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\hypersetup{
+  pdftitle={MoE-Glossar: Interstitium},
+  pdfauthor={Wolfgang Tscheu}
+}
+
+\begin{document}
+
+\vspace*{-1.8cm}
+
+\noindent
+\begin{minipage}[t]{0.66\textwidth}
+{\LARGE\bfseries Interstitium}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.30\textwidth}
+\raggedleft
+{\small MoE-Glossareintrag}\\
+{\small Version 261029-1}
+\end{minipage}
+
+\vspace{1.4em}
+
+\section*{Definition}
+
+Ein Interstitium ist der räumliche Zwischenraum,
+der durch die Oberflächen benachbarter, einander
+berührender QUBLES begrenzt wird.
+
+Die geometrische Gestalt des Interstitiums ergibt
+sich aus der räumlichen Anordnung und den
+Kontaktlagen der beteiligten QUBLES.
+
+\section*{Tetraederähnliches Interstitium}
+
+Vier einander paarweise berührende Kugeln
+begrenzen zwischen ihren Oberflächen ein
+konkaves, tetraederähnliches Interstitium.
+
+Die Mittelpunkte der vier Kugeln bilden
+die Eckpunkte eines Tetraeders.
+
+Die Begrenzungsflächen des Interstitiums
+sind Ausschnitte der gekrümmten
+Kugeloberflächen.
+
+In der klassischen Kugelpackungsgeometrie
+wird dieser Zwischenraum als
+\emph{Tetraederlücke} bezeichnet.
+
+\section*{Oktaederähnliches Interstitium}
+
+Sechs entsprechend angeordnete Kugeln
+begrenzen zwischen ihren Oberflächen ein
+konkaves, oktaederähnliches Interstitium.
+
+Vier Kugelmittelpunkte bilden ein Quadrat.
+Je ein weiterer Kugelmittelpunkt liegt
+oberhalb und unterhalb der Quadratsebene.
+
+Die sechs Mittelpunkte bilden die
+Eckpunkte eines Oktaeders mit acht
+dreieckigen Flächen.
+
+Die Begrenzungsflächen des Interstitiums
+werden durch die gekrümmten Oberflächen
+der sechs Kugeln gebildet.
+
+In der klassischen Kugelpackungsgeometrie
+wird dieser Zwischenraum als
+\emph{Oktaederlücke} bezeichnet.
+
+\section*{Interstitien in QUBLE-Packungen}
+
+Die räumliche Anordnung der QUBLES bestimmt
+die Lage, Gestalt und Verbindung der
+Interstitien innerhalb einer Packung.
+
+Die Kontaktlagen und die Verformung der
+QUBLES bestimmen die konkrete Ausbildung
+der Zwischenräume.
+
+Die jeweiligen Packungsordnungen werden
+in den Glossareinträgen
+\emph{SDQP / Superdichte QUBLE-Packung}
+und
+\emph{DQP / Dichte QUBLE-Packung}
+beschrieben.
+
+\vspace{0.9em}
+\hrule
+\vspace{0.45em}
+
+{\footnotesize
+MoE-Glossar:
+\emph{QUBLE / Quantelung},
+\emph{SDQP / Superdichte QUBLE-Packung},
+\emph{DQP / Dichte QUBLE-Packung}.
+}
+
+\end{document}
